@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font: 15px bold black;
+}
+body{
+    
+    background-image: url(img/detroit-g2a3bb9915_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 70px;
+}
+#desligado{
+    border: 5px solid black;
+    border-radius: 65px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "vermelho amarelo verde";
+    
+}
+button{
+    margin: 20px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 65px;
+    cursor: pointer;
+    padding: 10px;
+    
+    
+}
+
+
+#verde{
+    grid-area: verde;
+    background-color: green;
+    
+}
+#amarelo{
+    grid-area: amarelo;
+    background-color: yellow;
+   
+}
+#vermelho{
+    grid-area: vermelho;
+    background-color: red;
+}
+#automatico{
+    border-style: dashed;
+}
